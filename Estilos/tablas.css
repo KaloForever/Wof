@@ -1,0 +1,8 @@
+table, th, td {
+    border: 4px solid rgb(209, 0, 150);
+    border-spacing: 0;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}

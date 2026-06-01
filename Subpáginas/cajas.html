@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas</title>
+    <link rel="stylesheet" href="../Estilos/normal.css">
+    <link rel="stylesheet" href="../Estilos/box-model.css">
+</head>
+<body>
+    <div class="contenedor">
+    <a href="../index.html" title="*Muak*" class="link volver">Volver</a>
+    <h1>Cajas</h1>
+    <p>Buenom va tocando averiguar un poco como funciona esto de los elementos en html ya que aun sigo sin comprenderlo bien dkjsd</p>
+    <p>Quepedo con la IA integrada skjdksjd aveces intenta escribir texto por mi y me hace mucha gracia como me intenta copiar la forma de escribir skdjskjd</p>
+    <h2>Apuntes:</h2>
+    <ul>
+        <li>Un elemento de HTML en una pagina todo se considera como una caja rectangular</li>
+        <li>El contenido es el area donde se muestra el texto, imagen o cualquier otro contenido del elemento</li>
+        <li>El padding es el espacio entre el contenido y el borde de la caja</li>
+        <li>El margin es el espacio entre el borde de la caja y los elementos adyacentes, este espacio <br> separa el elemento de otros elementos de la pagina</li>
+        <li>El borde es el borde</li> 
+        <img src="../Imágenes/xd.jpg" class="imgchiquita">
+    </ul>
+    <h2>Ejemplo chiquito que hice:</h2>
+    <ul>
+        <li>Azul: H1</li>
+        <li>Rojo: Solo el fondo o el margin</li>
+        <li>Verde: Borde</li>
+        <li>Amarillo: P</li>        
+    </ul>
+    <div class="endiv">
+        <h1 class="endiv">Titulo</h1>
+        <p class="endiv">Párrafo</p>
+    </div>
+    <p>Entonces aumentando el margin y padding del Párrafo se vería así:</p>
+    <div class="endiv2">
+        <h1 class="endiv2">Titulo</h1>
+        <p class="endiv2">Párrafo</p>
+        </div>
+        <hr>
+        <p>Algo que hay que recordar es que si 2 margin de 2 elementos estan pegados se superponen y solo se muestra el margin mas grande de los 2, un ejemplo sería:</p>
+        <div class="centrar">
+        <p class="caja">margin 30px</p>
+        <p class="caja">margin 30px</p>
+        <p class="caja caja2">margin 30px</p>
+        <p class="caja caja3">margin 60px</p>
+        </div>
+        <hr>
+        <h2>Box-sizing</h2>
+        <p>Resulta que hay una propiedad llamada Box-sizing que define cómo se calcula el tamaño total de un elemento en CSS. Porq por defecto el navegador suma el padding y el border al tamaño que defina, lo que aveces suele "romper" los diseños. Esta propiedad evita que esto suceda un ejemplo sería:</p>
+        <h3>Sin la propiedad box-sizing: border-box</h3>
+        <h4>width: 100px; <br>
+        height: 100px;</h4>
+        <p>En realidad mide 170px x 170px</p>
+        <div class="box-sizing"></div>
+        <h3>Usando box-sizing: border-box:</h3>
+        <h4>width: 100px; <br>
+        height: 100px;</h4>
+        <p>Si mide 100px x 100px</p>
+        <div class="box-sizing con-box-sizing"></div>
+        <hr>
+        <p>jejejej no sabes cuanto he sufrido haciendo esto, diría que es la práctica que mas esfuerzo le he dedicado hasta ahora kjdskjd</p>
+        </div>
+</body>
+</html>
