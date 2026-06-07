@@ -3,12 +3,19 @@
 }
 
 #mensaje {
+    font-weight: bold;
+    color: rgb(93, 0, 136);
+    text-align: center;
+    font-size: 16px;
     background-color: #f7d9f7;
     border: 1px solid #000;
     border-radius: 5px;
     padding: 10px;
     border: 3px solid rgb(209, 0, 150);
     border-radius: 10px;
+    resize: horizontal;
+    min-width: 200px;
+    max-width: 500px;
 }
 
 #mensaje:focus {
@@ -25,10 +32,20 @@
 }
 
 #mensaje::placeholder {
+    font-weight: normal;
+    text-shadow: none;
+    text-align: center;
     color: #565656;
 } 
 
+.sincronizado {
+    margin: auto;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
 button {
+    margin-top: 5px;
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 5px;
@@ -54,17 +71,14 @@ img {
     border-radius: 50px;
 }
 
-.contenedor {
-    box-sizing: border-box;
-    background-color: #f7d9f7;
-    width: 80%;
-    margin: 50px auto;
-    border: 5px solid rgb(209, 0, 150);
-    border-radius: 50px;
+img:hover {
+    border-color: rgb(209, 0, 150);
+    box-shadow: 0 0 10px rgb(209, 0, 150);
+    transition: 0.3s;
 }
 
 .ul1 {
-    width: 80px;
+    width: 200px;
 }
 
 .ul2 {
