@@ -2,6 +2,13 @@
     color: #f00
 }
 
+audio {
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 30px;
+    border: 4px solid rgb(209, 0, 150);
+}
+
 #mensaje {
     font-weight: bold;
     color: rgb(93, 0, 136);
