@@ -1,0 +1,31 @@
+body {
+    background: rgb(255, 205, 251);
+    margin: 0;
+}
+
+.cajita {
+    width: 500px;
+    height: 400px;
+    background: conic-gradient(rgb(207, 156, 255),rgba(255, 255, 255, 0.6), rgba(109, 231, 142, 0.6));
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-top: 6px solid rgba(0, 255, 26, 0.667);
+    box-shadow: 0 0 55px 0 #000;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(74, 74, 74);
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+}
