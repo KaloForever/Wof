@@ -2,6 +2,34 @@
     font-family: sans-serif, Arial, Helvetica;
 }
 
+*::selection {
+    background-color: rgb(209, 0, 150);
+    color: #fff;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a:link {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #8000f8;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #00f;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+/* Mi mayor orgullo (ademas de tener un novio tan increible): */
 .contenedor {
     box-sizing: border-box;
     background-color: #f7d9f7;
@@ -40,21 +68,4 @@ hr {
 
 ul, ol {
     display: inline-block;
-}
-
-.link {
-    color: #000;
-    text-decoration: underline;
-}
-
-.link:hover {
-    color: #00f;
-    transition: 0.3s;
-    cursor: pointer;
-    letter-spacing: 1px;
-}
-
-.volver {
-    display: inline-block;
-    margin-top: 20px;
 }
