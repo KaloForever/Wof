@@ -1,0 +1,32 @@
+.cajita {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+.cajita:nth-of-type(2) /*Este es Mi primer uso de estos pseudoelementos o no se como se le dice kjdksjd*/ {
+    background-color: purple;
+    color: white;
+    top: 70px;
+    left: 20px;
+    z-index: 1;
+}
+
+.cajita:first-of-type {
+    top: 150px;
+    left:40px;
+    background-color: aqua;
+    z-index: 2
+}
+
+img {
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+    margin: 10px;
+    border: 5px solid rgb(209, 0, 150);
+    border-radius: 5px;
+}
