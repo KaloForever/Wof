@@ -79,6 +79,12 @@
     display: block;
 }
 
+.pfp:hover {
+    border-color: rgb(209, 0, 150);
+    box-shadow: 0 0 10px rgb(209, 0, 150);
+    transition: 0.3s;
+}
+
 .sitonmyface {
     display: block;
     position: sticky;
@@ -94,4 +100,10 @@
 .sitonmyface__tufotito {
     top: 400px;
     left: 700px;
+}
+
+.sitonmyface:hover {
+    border-color: rgb(209, 0, 150);
+    box-shadow: 0 0 10px rgb(209, 0, 150);
+    transition: 0.3s;
 }
