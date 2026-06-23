@@ -15,7 +15,7 @@
 
 .h1__notificación {
     font-size: 18px;
-    margin: 0;
+    margin: 5px;
 }
 
 .p__notificación {
@@ -26,5 +26,8 @@
 img {
     width: 50px;
     height: 50px;
+    margin: auto;
+    margin-top: 5px;
     border-radius: 50px;
+    display: block;
 }
