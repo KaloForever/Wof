@@ -30,10 +30,10 @@ img {
     margin-top: 5px;
     border-radius: 50px;
     display: block;
+    transition: 0.3s;
 }
 
 img:hover {
     border-color: rgb(209, 0, 150);
     box-shadow: 0 0 10px rgb(209, 0, 150);
-    transition: 0.3s;
 }

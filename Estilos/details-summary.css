@@ -12,9 +12,9 @@ summary {
     padding: 5px;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 details[open] summary {
-    transition: 0.3s;
     color: rgb(209, 0, 150);
 }

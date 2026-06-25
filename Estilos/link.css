@@ -10,12 +10,14 @@
     border-radius: 50px;
     display: block;
     margin: auto;
+    transition-property: border-color, box-shadow;
+    transition-duration: 0.3s;
+    position: relative;
 }
 
 .tohru:hover {
     border-color: rgb(209, 0, 150);
     box-shadow: 0 0 10px rgb(209, 0, 150);
-    transition: 0.3s;
 }
 
 .volver {
