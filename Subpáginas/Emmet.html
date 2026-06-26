@@ -12,18 +12,19 @@
         <a href="../index.html" title="*Muak*" class="link volver">Volver</a>
         <h1>Emmet</h1>
         <p>Emmet es una herramienta integrada en VS Code que permite escribir código HTML y CSS de forma extremadamente rápida utilizando abreviaturas (atajos basados en sintaxis CSS). Ya viene preinstalada por defecto, por lo que no requiere descargas adicionales.</p>
-        <img src="../Imágenes/anime-wow.png">
+        <img src="../Imágenes/anime-wow.png" class="wow">
         <p>Tenia ganas de aprender a usar algo de esto de hace tiempo así que estoy algo emocionado ksjdksjd</p>
         <hr>
-        <h2>Etiquetas</h2>
+        <h2>HTML:</h2>
+        <h3>Etiquetas</h3>
         <p>Cualquier etiqueta de HTML puede ser creada a través de Emmet</p>
         <video src="../video/etiquetas.mp4" autoplay loop muted>El vídeo no ha podido cargar</video>
-        <h2>Lorem</h2>
+        <h3>Lorem</h3>
         <p>Lorem es un atajo y abreviatura del texto de relleno Lorem Ipsum. En el diseño y desarrollo web se utiliza para simular el contenido real de un sitio antes de tener los textos definitivos, permitiendo evaluar cómo se verá el diseño:</p>
         <p><code>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt iusto perferendis libero rerum, reiciendis porro voluptatem unde tempora ullam labore rem soluta ipsam expedita quo debitis in quia nulla deserunt.</code></p>
         <video src="../video/lorem.mp4" autoplay loop muted>El vídeo no ha podido cargar</video>
-        <h2>Crear una Lista con múltiples LI</h2>
-        <p>Aquí se usa el <code>></code> para indicar herencia y el signo * para multiplicar la cantidad de etiquetas <code>LI</code>, se usan las <code>{}</code> para escribir contenido</p>
+        <h3>Crear una Lista con múltiples LI</h3>
+        <p>Aquí se usa el <code>></code> para indicar herencia y el signo <code>*</code> para multiplicar la cantidad de etiquetas <code>LI</code>, se usan las <code>{}</code> para escribir contenido</p>
         <p>Ejemplo: <code>ul>li{meow}*3</code>
             <ul>
                 <li>meow</li>
@@ -37,6 +38,7 @@
             <li class="clase-ejemplo">wof</li>
             <li class="clase-ejemplo">wof</li>
         </ul>
+        <img src="../Imágenes/clase-ejemplo.png" class="img--ejemplo">
         <p>Luego si pongo el $, Emmet va a generar un número secuencial</p>
         <p>Ejemplo: <code>ul>li.clase-ejemplo*3{wof $}</code></p>
         <ul>
@@ -44,7 +46,23 @@
             <li class="clase-ejemplo">wof 2</li>
             <li class="clase-ejemplo">wof 3</li>
         </ul>
-        <video src="../video/li.mp4" autoplay loop muted class="video-margin">El vídeo no ha podido cargar</video>
+        <video src="../video/li.mp4" autoplay loop muted>El vídeo no ha podido cargar :'3</video>
+        <h2>CSS</h2>
+        <h3>Propiedades</h3>
+        <p>Al igual que en HTML, en CSS se puede abreviar bastante la forma de escribir varias propiedades, por ejemplo:</p>
+        <p>al definir el valor de una propiedad, si escribo solamente <code>m</code>, al presionar Enter saldría la abreviación de Emmet <code>margin: ;</code></p>
+        <video src="../video/margin.mp4" autoplay loop muted>El vídeo no ha podido cargar :'3</video>
+        <p>Lo mismo con <code>Border</code> escribiendo solamente <code>bd</code></p>
+        <p class="gris">No voy a anotar todas las abreviaciones de cada propiedad porq q flojera</p>
+        <p>Y si presiono TAB puedo seleccionar los valores para reemplazarlos más fácilmente</p>
+        <video src="../video/bd.mp4" autoplay loop muted>El vídeo no ha podido cargar :'3</video>
+        <h3>Medidas</h3>
+        <p>Al definir las medidas de alguna propiedad, si escribo:</p>
+        <p>Un número simple como <code>10</code>, se definirá en Píxeles (<code>10px</code>) </p>
+        <p>Si pongo <code>10p</code>, se definirá como <code>10%</code></p>
+        <p>Con <code>10e</code> se definirá como <code>10em</code></p>
+        <p>Todo esto se puede combinar para escribir propiedades y valores de forma muy rápida</p>
+        <video src="../video/m10p10e.mp4" autoplay muted loop>El video no ha podido cargar :'3</video>
     </main>
 </body>
 </html>
